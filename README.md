@@ -27,12 +27,18 @@ All of my navigation links work, taking the user to the appropriate section of t
 
 In my forms, i have included validation that is working perfectly, phone number requires a number and email address requires the proper layout.
 
-Bugs
-==
+No errors were returned when put through the html and css validators
+
+My lighthouse scores are as follows: Performance 75, Accessibility 90, Best Practices 93, SEO 92
+
 Deployment
 =
+My website was deployed to GitHub pages.
+
+The link can be found here - "  "
+
 Credits
 =
 All content on the website is from myself, with the exception of the images and the map which i got from using google maps and used the embedding feature that they provide.
 
-I got the image of the children playing football from "", the facebook logo i got from "" and the twitter logo from "".
+I got the image of the children playing football from "https://images.pexels.com/photos/6193967/pexels-photo-6193967.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260", the facebook logo i got from "https://cdn.freebiesupply.com/logos/large/2x/facebook-logo-2019.png" and the twitter logo from "https://www.designbust.com/download/635/png/twitter_logo_transparent_background512.png".

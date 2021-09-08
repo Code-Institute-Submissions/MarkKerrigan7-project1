@@ -1,0 +1,132 @@
+body {
+	margin:0%;
+}
+.nav ul {
+	background-color:slateblue;
+	text-align: right;
+	padding: 0;
+	margin: 0;
+  }
+.nav li {
+	font-size: 1em;
+	display: inline-block;
+	margin: 1px;
+    padding-right: 15px;
+}
+.nav a {
+	text-decoration: none;
+	color:seashell;
+	display: block;
+}
+.nav a:hover {
+	background-color: seashell;
+	color:slateblue;
+	text-transform: uppercase;
+}
+.container {
+        width: 100vw;
+        height: 100vh;
+
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 20px;
+
+        display: grid;
+
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 50px repeat(8, 1fr) 50px;
+
+        gap: 7px;
+        padding: 7px;
+        box-sizing: border-box;
+        overflow: auto;
+}
+.container div {
+    padding: 7px;
+}
+.nav {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.title {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    text-align: center;
+    background-color:lightslategrey;
+    color: palegoldenrod;
+}
+.title-photo {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+.about-the-camp {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    color: palegoldenrod;
+    background-color:lightslategrey;
+    text-align: center;
+}
+.about-the-camp ul {
+    list-style: none;
+    color: seashell;
+    }
+.sign-up {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 6;
+    color: palegoldenrod;
+    text-align: center;
+  }
+.contact-us {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 7;
+    text-align: center;
+}
+.contact-us h2 {
+    color: palegoldenrod;
+}
+.contact-us h3 {
+    color: seashell;
+}
+.socials {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 8;
+    grid-row-end: 8;
+}
+.footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 9;
+    grid-row-end: 9;
+    text-align: center;
+    background-color: slateblue;
+    color: seashell;
+}
+.map {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+body {
+	margin:0%;
+	padding:0%;
+	background-color:slategray;
+}
+form {
+    text-align: center;
+	font-size: 1.4em;
+	background-color:lightslategrey;
+    color: seashell;
+}
