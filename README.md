@@ -35,7 +35,7 @@ Deployment
 =
 My website was deployed to GitHub pages.
 
-The link can be found here - "  "
+The link can be found here - "https://github.com/MarkKerrigan7/project1/"
 
 Credits
 =
